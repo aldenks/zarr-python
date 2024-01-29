@@ -9,5 +9,4 @@ PathLike = Union[str, bytes, None]
 
 
 class MetaArray(Protocol):
-    def __array_function__(self, func, types, args, kwargs):
-        ...
+    def __array_function__(self, func, types, args, kwargs): ...

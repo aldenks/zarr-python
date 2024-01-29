@@ -9,8 +9,7 @@ import fasteners
 class Synchronizer(Protocol):
     """Base class for synchronizers."""
 
-    def __getitem__(self, item):
-        ...
+    def __getitem__(self, item): ...
 
 
 class ThreadSynchronizer(Synchronizer):
